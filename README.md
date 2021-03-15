@@ -25,7 +25,7 @@ NOTE: Order of Pca9685 board address wise must be in sequence otherwise it will 
 
 ## Connection details 
 
-![img](/image/connection-dettails.JPG)
+![img](/image/connections.JPG)
 
 ```
 sda and scl from arduino to 1st pca9685 
