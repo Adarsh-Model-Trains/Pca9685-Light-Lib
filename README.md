@@ -2,7 +2,7 @@
 
 ---
 
-# <a href="https://github.com/adarshkumarsingh83/Pca9685-Servo-Lib/archive/production.zip"> Library download link </a>
+# <a href="https://github.com/adarshkumarsingh83/Pca9685-Light-Lib/archive/production.zip"> Library download link </a>
 
 ## About the Lib 
 ```
