@@ -1,7 +1,7 @@
 #include "Pca9685.h"
 #include "Pca9685Board.h"
 
-#define NO_OF_BOARDS 3
+#define NO_OF_BOARDS 4
 
 int MAX_PINS = 0;
 
@@ -13,12 +13,12 @@ void setup() {
 }
 
 void loop() {
-  for (int i = 0; i <= MAX_PINS; i++) {
+  for (int i = 1; i <= MAX_PINS; i++) {
     pca9685Board.switchOn(i);
   }
   pca9685Board.displayPinState();
   delay(1000);
-  for (int i = 0; i <= MAX_PINS; i++) {
+  for (int i = 1; i <= MAX_PINS; i++) {
     pca9685Board.switchOff(i);
   }
   pca9685Board.displayPinState();
